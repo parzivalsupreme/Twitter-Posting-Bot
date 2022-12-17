@@ -1,3 +1,4 @@
+#Modules
 import tweepy
 import schedule
 import time
@@ -38,9 +39,9 @@ def monday():
     
 def tuesday():
     #Tweet Inputs
-    API.update_status ('“A room without books is like a body without a soul.” - Marcus Tullius Cicero')
-    API.update_status ('“Be who you are and say what you feel, because those who mind dont matter, and those who matter dont mind.” - Bernard M. Baruch')
-    API.update_status ('“Youve gotta dance like theres nobody watching, Love like youll never be hurt, Sing like theres nobody listening, And live like its heaven on earth.” - Willian W. Purkey ')
+    API.update_status ('')
+    API.update_status ('')
+    API.update_status ('')
     
     print("Tweet posted!")
     speak("Tweet posted!")
