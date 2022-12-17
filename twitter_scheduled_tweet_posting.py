@@ -9,10 +9,10 @@ import subprocess
 print("                                               🤖TWITTER POSTING BOT🤖")
 
 #Set up the Twitter API by providing the necessary keys and tokens
-consumer_key = 'D8sH2wuP2kMMjEKwqhxCY3uSM'
-consumer_secret = 'chZAOEBvq1FDqa7Nb3zFrJRa55Jypd7ZA1sf7jwfdsCXKL4lsf'
-access_token = '1551508815798865920-jyBhv7DlsQJFF92XykK2skALEoz6qv'
-access_token_secret = 'SUlX2rMcezE0SvqI8HpW0Qy2ivmyNnOBQKSbE1Dta9EDV'
+consumer_key = ''
+consumer_secret = ''
+access_token = ''
+access_token_secret = ''
 authenticator = tweepy.OAuthHandler(consumer_key, consumer_secret)
 authenticator.set_access_token(access_token, access_token_secret)
 API = tweepy.API(authenticator, wait_on_rate_limit=True)
@@ -39,9 +39,9 @@ def monday():
     
 def tuesday():
     #Tweet Inputs
-    API.update_status ('“A room without books is like a body without a soul.” - Marcus Tullius Cicero')
-    API.update_status ('“Be who you are and say what you feel, because those who mind dont matter, and those who matter dont mind.” - Bernard M. Baruch')
-    API.update_status ('“Youve gotta dance like theres nobody watching, Love like youll never be hurt, Sing like theres nobody listening, And live like its heaven on earth.” - Willian W. Purkey ')
+    API.update_status ('')
+    API.update_status ('')
+    API.update_status ('')
     
     print("Tweet posted!")
     speak("Tweet posted!")
@@ -49,9 +49,9 @@ def tuesday():
     
 def wednesday():
     #Tweet Inputs
-    API.update_status ('“Live as if you were to die tomorrow. Learn as if you were to live forever.” - Mahatma Gandhi') 
-    API.update_status ('“Darkness cannot drive out darkness: only light can do that. Hate cannot drive out hate: only love can do that.” - Martin Luther King Jr.')
-    API.update_status ('“Without music, life would be a mistake.” - Friedrich Nietzsche')
+    API.update_status ('') 
+    API.update_status ('')
+    API.update_status ('')
     
     print("Tweet posted!")
     speak("Tweet posted!")
@@ -59,9 +59,9 @@ def wednesday():
     
 def thursday():
     #Tweet Inputs
-    API.update_status ('“I am so clever that sometimes I do not understand a single word of what I am saying.” - Oscar Wilde') 
-    API.update_status ('“To be yourself in a world that is constantly trying to make you something else is the greatest accomplishment.” - Ralph Waldo Emerson')
-    API.update_status ('“Insanity is doing the same thing, over and over again, but expecting different results.”')
+    API.update_status ('') 
+    API.update_status ('')
+    API.update_status ('')
     
     print("Tweet posted!")
     speak("Tweet posted!")
@@ -69,9 +69,9 @@ def thursday():
         
 def friday():
     #Tweet Inputs
-    API.update_status ('“It is better to be hated for what you are than to be loved for what you are not.” - Andre Gide') 
-    API.update_status ('“Twenty years from now you will be more disappointed by the things that you did not do than by the ones you did do. So throw off the bowlines. Sail away from the safe harbor. Catch the trade winds in your sails. Explore. Dream. Discover.” - H. Jackson Brown Jr.')
-    API.update_status ('“It is not a lack of love, but a lack of friendship that makes unhappy marriages.” - Friedrich Nietzsche')
+    API.update_status ('') 
+    API.update_status ('')
+    API.update_status ('')
     
     print("Tweet posted!")
     speak("Tweet posted!")
